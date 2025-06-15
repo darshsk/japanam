@@ -130,6 +130,7 @@ button.addEventListener('click', () => {
       mala.textContent = malacount;
       navigator.vibrate(20);
       reset();
+      totalStop();
     }
   
   });
