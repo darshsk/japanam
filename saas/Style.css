@@ -1,0 +1,45 @@
+.bd {
+    margin: 0;
+    background: linear-gradient(to bottom right, rgb(157, 67, 168), rgb(138, 170, 212));
+    height: 100vh;
+}
+
+.bdr{
+    border: 1px solid whitesmoke;
+    color: white;
+}
+
+#counter
+{
+    font-size: 100px;
+    color: white;
+}
+
+#display{
+    color: white;
+    font-size: 20px;
+}
+
+#malas, #totalCounter, #totalDisplay
+{
+    font-size: 25px;
+}
+
+#mala, #chants, #time
+{
+    font-size: 22px;
+}
+
+#hdr
+{
+    font-size: 40px;
+    font-family: "Consolas", cursive;
+    color: whitesmoke;
+    
+}
+
+#ftr
+{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}

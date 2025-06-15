@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JapaNam</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="saas/Style.css">
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+        
+    </head>
+    <body class="bd">
+        <nav class="navbar" style="background-color: rgb(72, 0, 87);">
+            <div class="container">
+                <a class="navbar-brand" href="JapaNam.html">
+                    <span id="hdr">JapaNam</span>
+                </a>                
+            </div>    
+        </nav>
+        <div class="container-xl pt-4">
+            <div class="container text-center">
+                <div class="row justify-content-md-center">
+                    <div class="col rounded m-2">
+                        <span><img src="img/clock.svg"></span>
+                        <span class="time" id="display">00:00:00</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="row justify-content-md-center">
+                    <div class="col rounded">
+                        <span id="counter">0</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col rounded m-2 bdr">
+                        <span id="mala"><p><u>Mala</u></p></span>
+                        <span id="malas"><p>0</p></span>
+                    </div>
+                    <div class="col rounded m-2 bdr">
+                        <span id="chants"><p><u>Chants</u></p></span>
+                        <span id="totalCounter"><p>0</p></span>
+                    </div>
+                    <div class="col rounded m-2 bdr" >
+                        <span id="time"><p><u>Time</u></p></span>
+                       <span class="totalTime" id="totalDisplay"><p>00:00:00</p></span> 
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col rounded m-2">
+                        <button style="width: 100%; height: 400%; font-size: 50px; border-color: white; border-radius: 5px; background-color: rgb(40, 119, 156); color: white;" id="clickButton" onclick="startimecounter();">+Count</button>
+                    </div>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br>
+                <div class="row">
+                    <div class="col rounded m-2 pt-1">
+                        <button class="btn btn-outline-warning" style="width: 100%; border-radius: 5px; display: inline-block;" onclick="startimecounter();" id="playtimer"> <img src="img/play.svg"> PlayTimer</button>
+                        <button class="btn btn-outline-info" style="width: 100%; border-radius: 5px; display: none;" onclick="stoptimercounter();" id="pausetimer"> <img src="img/pause.svg"> PauseTimer</button>
+                    </div>
+                    
+                    <div class="col rounded m-2 pt-1">
+                        <button class="btn btn-outline-danger" style="width: 100%; border-radius: 5px;" onclick="wipeData();"><img src="img/repeat.svg"> Reset</button>
+                    </div>
+                </div>       
+            </div>
+        </div>
+        
+        <script src="saas/Index.js" ></script>
+        <script type="script" src="Bootstrap/js/bootstrap.min.js"></script>
+
+        <hr>
+
+        <footer>
+                <div id="ftr">
+                    <span><a href="japanam.html" style="color: whitesmoke;">dhambha.hingu</a></span>
+                </div>
+        </footer>
+
+    </body>
+
+
+</html>
